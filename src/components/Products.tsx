@@ -1,4 +1,7 @@
 import type { FC } from "react";
+import Guitar1 from '/src/assets/Guitar-1.png';
+import Guitar2 from '/src/assets/Guitar-1.png';
+import Guitar3 from '/src/assets/Guitar-1.png';
 
 interface ProductsProps {}
 type item = {
@@ -14,7 +17,7 @@ const Products: FC<ProductsProps> = () => {
   const items: item[] = [
     {
       id: 1,
-      image: "/src/assets/Guitar-1.png",
+      image: Guitar1,
       name: "Brand Name",
       price: "$2995",
       description: "Product description here",
@@ -22,7 +25,7 @@ const Products: FC<ProductsProps> = () => {
     },
     {
       id: 2,
-      image: "/src/assets/Guitar-2.png",
+      image: Guitar2,
       name: "Brand Name",
       price: "$2995",
       description: "Product description here",
@@ -30,7 +33,7 @@ const Products: FC<ProductsProps> = () => {
     },
     {
       id: 3,
-      image: "/src/assets/Guitar-3.png",
+      image: Guitar3,
       name: "Brand Name",
       price: "$2995",
       description: "Product description here",

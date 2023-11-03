@@ -1,4 +1,9 @@
 import type { FC } from "react";
+import Product1 from "/src/assets/Product-1.png"
+import Product2 from "/src/assets/Product-2.png"
+import Product3 from "/src/assets/Product-3.png"
+
+
 
 interface FindsProps {}
 type item = {
@@ -14,7 +19,7 @@ const Finds: FC<FindsProps> = () => {
   const items: item[] = [
     {
       id: 1,
-      image: "/src/assets/Product-1.png",
+      image: Product1,
       name: "Brand Name",
       price: "$2995",
       description: "Product description here",
@@ -22,7 +27,7 @@ const Finds: FC<FindsProps> = () => {
     },
     {
       id: 2,
-      image: "/src/assets/Product-2.png",
+      image: Product2,
       name: "Brand Name",
       price: "$2995",
       description: "Product description here",
@@ -30,7 +35,7 @@ const Finds: FC<FindsProps> = () => {
     },
     {
       id: 3,
-      image: "/src/assets/Product-3.png",
+      image: Product3,
       name: "Brand Name",
       price: "$2995",
       description: "Product description here",

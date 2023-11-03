@@ -1,4 +1,10 @@
 import type { FC } from "react";
+import manWithPiano from '/src/assets/guitar-on-piano.jpg'
+import manWithGuitar from '/src/assets/man-with-guitar.jpg'
+import manWithGuitar2 from '/src/assets/man-with-guitar-2.jpg'
+import musicBoard from '/src/assets/music-board.jpg'
+import yellowGuitar from '/src/assets/yellow-guitar.jpg'
+
 
 interface GearsProps {}
 type item = {
@@ -12,13 +18,13 @@ const Gears: FC<GearsProps> = () => {
   const items1: item[] = [
     {
       id: 1,
-      image: "/src/assets/guitar-on-piano.jpg",
+      image: manWithPiano,
       article: "Article Title",
       subhead: "Article Subhead",
     },
     {
       id: 2,
-      image: "/src/assets/man-with-guitar.jpg",
+      image: manWithGuitar,
       article: "Article Title",
       subhead: "Article Subhead",
     },
@@ -26,19 +32,19 @@ const Gears: FC<GearsProps> = () => {
   const items2: item[] = [
     {
       id: 1,
-      image: "/src/assets/man-with-guitar-2.jpg",
+      image: manWithGuitar2,
       article: "Article Title",
       subhead: "Article Subhead",
     },
     {
       id: 2,
-      image: "/src/assets/music-board.jpg",
+      image: musicBoard,
       article: "Article Title",
       subhead: "Article Subhead",
     },
     {
       id: 3,
-      image: "/src/assets/yellow-guitar.jpg",
+      image: yellowGuitar,
       article: "Article Title",
       subhead: "Article Subhead",
     },
