@@ -1,2 +1,3 @@
 # Central Music
-its a web application that display different types of music instrument
+its a landing page that display different types of music instrument.
+# technology used
